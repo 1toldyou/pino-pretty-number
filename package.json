@@ -1,12 +1,12 @@
 {
   "name": "pino-pretty-number",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "Prettifier for Pino log lines",
   "type": "commonjs",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
-    "pino-pretty": "./bin.js"
+    "pino-pretty-number": "./bin.js"
   },
   "scripts": {
     "ci": "standard && tap --coverage-report=lcovonly && npm run test-types",
