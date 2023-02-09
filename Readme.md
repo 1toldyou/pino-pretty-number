@@ -1,10 +1,9 @@
 <a id="intro"></a>
-# pino-pretty
+# pino-pretty-number
 
-[![NPM Package Version](https://img.shields.io/npm/v/pino-pretty)](https://www.npmjs.com/package/pino-pretty)
-[![Build Status](https://img.shields.io/github/workflow/status/pinojs/pino-pretty/CI)](https://github.com/pinojs/pino-pretty/actions?query=workflow%3ACI)
-[![Coverage Status](https://img.shields.io/coveralls/github/pinojs/pino-pretty)](https://coveralls.io/github/pinojs/pino-pretty?branch=master)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
+A "fork" of [pino-pretty](https://github.com/pinojs/pino-pretty) that supports `number`
+
+---
 
 This module provides a basic [ndjson](http://ndjson.org/) formatter to be used in __development__. If an
 incoming line looks like it could be a log line from an ndjson logger, in
@@ -40,17 +39,17 @@ prettified logs will look like:
 ## Install
 
 ```sh
-$ npm install -g pino-pretty
+$ npm install -g pino-pretty-number
 ```
 
 <a id="usage"></a>
 ## Usage
 
-It is recommended to use `pino-pretty` with `pino`
+It is recommended to use `pino-pretty-number` with `pino`
 by piping output to the CLI tool:
 
 ```sh
-node app.js | pino-pretty
+node app.js | pino-pretty-number
 ```
 
 <a id="cliargs"></a>
