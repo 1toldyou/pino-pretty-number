@@ -360,6 +360,14 @@ a `stdout is not a tty` error message.
 
 Any PRs are welcomed!
 
+<a id="developemnt"></a>
+## Development
+
+Since the test is broken, use CLI to commit
+```base
+git commit -n -m "YOUR COMMIT MESSAGE"
+```
+
 <a id="license"></a>
 ## License
 
